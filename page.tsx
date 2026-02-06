@@ -1,10 +1,9 @@
-
-export default function Home() {
+export default function Success() {
   return (
-    <main style={{ padding: 40 }}>
-      <h1>Mont Tremblant Luxury Limo</h1>
-      <p>Online booking & full payment enabled.</p>
-      <p>Fleet includes 2026 Cadillac Escalade ESV and more.</p>
+    <main style={{ padding: 40, textAlign: "center" }}>
+      <h1>Payment Successful ✅</h1>
+      <p>Your booking is confirmed. We’ll contact you shortly with the ride details.</p>
+      <p style={{ opacity: 0.8 }}>Thank you for choosing Mont Tremblant Luxury Limo.</p>
     </main>
   );
 }
